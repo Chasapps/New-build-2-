@@ -1,4 +1,4 @@
-Tell me about this one 
+// me about this one 
 
 
 // SpendLite v6.6.27 – Month filter + export respects selected month
@@ -625,5 +625,5 @@ document.addEventListener('DOMContentLoaded', () => { try { updateMonthBanner();
 window.addEventListener('beforeunload', () => {
   try { localStorage.setItem(LS_KEYS.TXNS_JSON, JSON.stringify(CURRENT_TXNS||[])); } catch {}
 });
-document.getElementById('exportTotalsBtn')
-  .addEventListener('click', exportTotals);
+//document.getElementById('exportTotalsBtn')
+// addEventListener be('click', exportTotals);
